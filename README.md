@@ -8,3 +8,19 @@ Mediapipe es una biblioteca de código abierto desarrollada por Google que reali
 
 
 ![Mediapipe](https://google.github.io/mediapipe/images/mobile/holistic_sports_and_gestures_example.gif)
+
+Para obtener las coordenadas se ha utilizado el modelo Holistic de MediaPipe. Este modelo es capaz de detectar 21 puntos relevantes en cada mano, 33 en cuerpo y cara, y una malla de 468 puntos en la cara. Como la mayoría de estos puntos no aportan información relevante para el objetivo que se busca, se han seleccionado un total de 57 puntos (21 puntos para cada una de las manos y 15 para cuerpo y cara).
+
+
+![hands puntos](https://user-images.githubusercontent.com/92582462/148983346-ec1ee97d-059d-4339-a9f9-48d12f1fab09.jpg)
+
+![pose puntos](https://user-images.githubusercontent.com/92582462/148983351-74933920-4d51-4a70-a431-1f11244e22f2.jpg)
+
+Enlaces externos:  
+
+Articulo medium:
+https://medium.com/@luis.urresti.alas/560e518f8ae2
+
+Mediapipe holistic:  
+https://google.github.io/mediapipe/solutions/holistic.html
+
